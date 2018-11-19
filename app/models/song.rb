@@ -3,5 +3,5 @@ class Song < ActiveRecord::Base
   belongs_to :genre
   has_many :notes
 
-  def
+  def genre_name=(name)
 end
